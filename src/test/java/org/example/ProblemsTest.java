@@ -27,5 +27,7 @@ class ProblemsTest {
         assertArrayEquals(Problems.primeFactors(7919), new int[]{7919});
         assertArrayEquals(Problems.primeFactors(15), new int[]{3, 5});
         assertArrayEquals(Problems.primeFactors(6893), new int[]{61, 113});
+        assertArrayEquals(Problems.primeFactors(12), new int[]{2, 2, 3});
+
     }
 }
