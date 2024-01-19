@@ -23,7 +23,6 @@ public class Problems {
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0 && isPrime(i)) {
                 int[] prime = primeFactors(n / i);
-//                System.out.println(n + " " + Arrays.toString(prime));
                 result = new int[prime.length + 1];
                 result[result.length-1] = i;
                 System.arraycopy(prime, 0, result, 0, prime.length);
