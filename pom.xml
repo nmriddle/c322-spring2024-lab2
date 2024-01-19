@@ -49,7 +49,7 @@
                 <configuration>
                     <includes>
                         <include>
-                            edu.iu.habahram.ProblemsTest
+                            org.example.ProblemsTest
                         </include>
                     </includes>
                     <excludes>
